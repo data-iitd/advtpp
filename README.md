@@ -170,4 +170,4 @@ If you use this code in your research, please cite:
 
 ## Contact
 In case of any issues, please reach out at:
-```pritish@cse.iitb.ac.in``` or ```guptavinayak51 (at) gmail (dot) com```
+```pritish (at) cse.iitb.ac.in``` or ```guptavinayak51 (at) gmail.com```
