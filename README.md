@@ -156,3 +156,18 @@ python Main.py -data Twitter -pad_max_len 265 -train_time_attack TS_DET -baselin
 python Main.py -data Twitter -pad_max_len 265 -train_time_attack TS_PROB -sparse_hidden 300 -batch_norm -kappa 40 -batch_size 128 -epoch 20 -threat_model WHITE_BOX_SOURCE -defender_tgt_path ./CKPT/Twitter_fold1_CLEAN_TARGET_Sep-07-2023_163819/thp_model_20.pkl -defender_src_path ./CKPT/Twitter_fold1_CLEAN_SOURCE_Sep-07-2023_163811/thp_model_20.pkl -d_k 128 -d_v 128 -n_head 8 -log_path <path to log file> -std_error_subtractor 128
 python Main.py -data Twitter -pad_max_len 265 -train_time_attack TS_PROB -sparse_hidden 350 -batch_norm -kappa 40 -batch_size 128 -epoch 20 -threat_model BLACK_BOX -defender_tgt_path ./CKPT/Twitter_fold1_CLEAN_TARGET_Sep-07-2023_163819/thp_model_20.pkl -defender_src_path ./CKPT/Twitter_fold1_CLEAN_SOURCE_Sep-07-2023_163811/thp_model_20.pkl -d_k 128 -d_v 128 -n_head 8 -log_path <path to log file> -std_error_subtractor 128
 ```
+
+## Citing
+If you use this code in your research, please cite:
+```
+@inproceedings{aaai25,
+ author = {Pritish Chakraborty and Vinayak Gupta and Rahul R and Srikanta Bedathur and Abir De},
+ booktitle = {Proc. of the 39th AAAI Conference on Artificial Intelligence (AAAI)},
+ title = {Differentiable Adversarial Attacks for Marked Temporal Point Processes},
+ year = {2025}
+}
+```
+
+## Contact
+In case of any issues, please reach out at:
+```pritish@cse.iitb.ac.in``` or ```guptavinayak51 (at) gmail (dot) com```
