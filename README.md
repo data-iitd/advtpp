@@ -1,6 +1,6 @@
 # Differentiable Adversarial Attacks for Marked Temporal Point Processes
 
-This is the code accompanying the submission "Differentiable Adversarial Attacks for Marked Temporal Point Processes".
+Artifacts related to the AAAI 2025 paper "Differentiable Adversarial Attacks for Marked Temporal Point Processes".
 
 ### Requirements
 
