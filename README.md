@@ -1,6 +1,4 @@
-# Differentiable Adversarial Attacks for Marked Temporal Point Processes
-
-Artifacts related to the AAAI 2025 paper "Differentiable Adversarial Attacks for Marked Temporal Point Processes".
+# Differentiable Adversarial Attacks for Marked Temporal Point Processes (AAAI 2025)
 
 ### Requirements
 
